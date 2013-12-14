@@ -5,6 +5,7 @@
 """
 import time
 
+
 def factorise(number):
     """Given an integer, returns a list of of prime factors"""
     n = number

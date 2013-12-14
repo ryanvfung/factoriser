@@ -3,9 +3,7 @@
     @author: Ryan Fung
     Create Date: 2013-10-15
 """
-print("\n===== Integer Factoriser 0.4 by Ryan Fung =====\n")
 import time
-# input("Enter a number to be factorised:")
 
 
 def factorise(number):
@@ -104,6 +102,7 @@ def foundFactor(factor, factors, factorList):
     print("Current Factor List: " + str(factorList))
 
 if __name__ == "__main__":
+    print("\n===== Integer Factoriser 0.4 by Ryan Fung =====\n")
     while(True):
         multiple = input("Input number to factorise:\n>>>")
         factorise(multiple)
